@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+html{
+  overflow: overlay;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(63, 63, 63, 0.3);
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  :root{
+    --height-navbar : 60px;
+  }
+
+  .clear{
+    clear: both;
+}
+  

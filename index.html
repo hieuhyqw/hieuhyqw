@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTH | Camera Digital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/reponsive.css"> 
+    <link rel="stylesheet" href="./font/css/all.css">
+    <link rel="stylesheet" href="./asset/lightslider.css">
+    <script type="text/javascript" src="./asset/jquery.js"></script>
+    <script type="text/javascript" src="./asset/lightslider.js"></script>
+     <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/grid.css">
+
+<body>
+    <div class="main">
+
+        <!-- header -->
+        <div class="header">
+            <div class="grid wide nav">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="#danhmuc" class="header__navbar-link">Danh mục</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#mayanh" class="header__navbar-link">Máy ảnh</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#ongkinh" class="header__navbar-link">ống kính</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#thenho" class="header__navbar-link">thẻ nhớ</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#phukien" class="header__navbar-link">phụ kiện</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="header__navbar-list">    
+                        <div class="header__navbar-item-bell">
+                            <i class="header__navbar-icon fas fa-bell"></i>
+                            <div class="bell__box">
+                                <div class="bell__span">
+                                <p>Thông báo</p>
+                                </div>
+                                <ul class="bell__list">
+                                    <li class="bell__item">
+                                        <a href="" class="bell__link">
+                                            <i class="bell__link-icon fas fa-toolbox"></i>
+                                            <div class="bell__content">
+                                                <h2 class="bell__heading">Bảo trì hệ thống</h2>
+                                                <p class="bell__subheading">Thông báo hệ thống sẽ bảo trì sau 15h30p</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="bell__item unread">
+                                        <a href="" class="bell__link">
+                                            <img src="./img/fujinon-xf-1655mm-f28-r-lm-wr.jpg" alt="" class="bell__img">
+                                            <div class="bell__content">
+                                                <h2 class="bell__heading">Lens 16-55mmXF</h2>
+                                                <p class="bell__subheading">Giảm giá 10%</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="bell__item unread">
+                                        <a href="" class="bell__link">
+                                            <img src="./img/fujinon-xf1024mm-f4-r-ois.jpg" alt="" class="bell__img">
+                                            <div class="bell__content">
+                                                <h2 class="bell__heading">Lens 10-24mmXF</h2>
+                                                <p class="bell__subheading">Giảm giá 5%</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="bell__end">
+                                    <a href="" class="bell__end-link">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="header__navbar-item-cart">
+                            <input id="fadein" hidden  type="checkbox" class="cart__checkbox">
+                            <label for="fadein" class="header__navabar-item-icon">
+                            <span class="header__cart-notice">1</span>
+                            <i class=" header__navbar-icon fas fa-shopping-cart"></i>
+                            </label>
+                            <label for="fadein" class="cart__overflow"></label>
+                            <div  class="cart-box">
+                                <div class="cart__body">
+                                    <p class="cart__body-text">SẢN PHẨM ĐÃ THÊM</p>
+                                    <ul class="cart__list">
+                                        <li class="cart__item">
+                                            <img src="./img/may-anh-fujifilm-gfx-100s-body.jpg" alt="" class="cart-img">
+                                            
+                                            <div class="cart__privce">
+                                                <h3 class="cart__prive-heading">FUJIFILM GFX-100S | Chính hãng</h3>
+                                                <p class="cart__prive-number">Phân loại : Nhập khẩu </p>
+                                            </div>
+                                          
+                                        </li>
+                                    </ul>
+                                    <p class="cart__end"><button class="cart__end-btn">Thanh Toán</button></p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div  class="header__navbar-item-search">
+                            <input id="search" hidden type="checkbox" class="search-cheackbox">
+                            <label for="search" class="search-box">
+                                <i class="fas fa-search"></i>
+                            </label>
+                            <label for="search" class="search__overlay"></label>
+                            <div class="input__body">
+                                <input class="input__body-text" type="text" placeholder="Tìm kiếm">    
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- video backgorund -->
+        <div class="video">
+			<div class="overlay"></div>
+            <video src="./video/fujifilm.mp4" width="100%"  autoplay loop muted></video>
+        </div>
+
+        <div class="service">
+            <div class="grid wide">
+                <div class="service__body">
+                    <div class="service__body-item ">
+                        <div class="sevice__body-emot">
+                        <i class="sevice__body-icon fas fa-truck"></i>
+                        </div>
+                        <div class="service__body-text">
+                            <h3 class="service__body-heading">Miễn phí vận chuyển</h3>
+                            <p class="service__body-subheading">Giao hàng miễn phí tất cả các đơn</p>
+                        </div>
+                    </div>
+                    <div class="service__body-item ">
+                        <div class="sevice__body-emot">
+                            <i class="sevice__body-icon far fa-check-square"></i>
+                        </div>
+                        <div class="service__body-text">
+                            <h3 class="service__body-heading">Cam kết sản phẩm chính hãng</h3>
+                            <p class="service__body-subheading">Chính hãng, có thương hiệu</p>
+                        </div>
+                    </div>
+                    <div class="service__body-item ">
+                        <div class="sevice__body-emot">
+                            <i class="sevice__body-icon fas fa-tools"></i>
+                        </div>
+                        <div class="service__body-text">
+                            <h3 class="service__body-heading">Bảo hành miễn phí</h3>
+                            <p class="service__body-subheading">Bảo hành tận nơi</p>
+                        </div>
+                    </div>
+                    <div class="service__body-item ">
+                        <div class="sevice__body-emot">
+                            <i class="sevice__body-icon fas fa-gift"></i>
+                        </div>
+                        <div class="service__body-text">
+                            <h3 class="service__body-heading">Khuyến mại lớn</h3>
+                            <p class="service__body-subheading">Nhiều quà tặng hấp dẫn</p>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <div class="slide-show">
+            <div class="grid wide ">
+                <div class="slide-show-body ">
+                    <div class="slide-show-one ">
+                        <img class="slide-show-img" src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="slide-show-tow">
+                        <div class="slide-show-town">
+                            <img class="slide-show-img" src="./img/2.jpg" alt="">
+                        </div>
+                        <div class="slide-show-town">
+                            <img class="slide-show-img" src="./img/2a.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- content product -->
+        <div class="product">
+            <div class="grid wide">
+                <!-- list -->
+                <div id="danhmuc" class="product__container">
+                    <div  class="product__container-block">
+                        <h3 class="block-text">
+                            <span>Danh Mục</span>
+                            SẢN PHẨM
+                        </h3>
+                    </div>
+                    <div class="product__container-danhmuc">
+                        <div class="product__container-list l-3">
+                            <div class="product__container-img">
+                                <a href="" class="product__list-link-text">
+                                    <img src="./img/list1.jpg" alt="" class="product__list-img">
+                                </a>
+                            </div> 
+                            <div class="product__container-text">
+                                <a href="" class="product__list-link-text">
+                                    Máy ảnh
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="product__container-list l-3">
+                            <div class="product__container-img">
+                                <a href="" class="product__list-link-text">
+                                    <img src="./img/lenslist.png" alt="" class="product__list-img">
+                                </a>
+                            </div> 
+                            <div class="product__container-text">
+                                <a href="" class="product__list-link-text">
+                                    Ống kính
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="product__container-list l-3">
+                            <div class="product__container-img">
+                                <a href="" class="product__list-link-text">
+                                    <img src="./img/thenholist.jpg" alt="" class="product__list-img">
+                                </a>
+                            </div> 
+                            <div class="product__container-text">
+                                <a href="" class="product__list-link-text">
+                                    Thẻ nhớ
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="product__container-list l-3">
+                            <div class="product__container-img">
+                                <a href="" class="product__list-link-text">
+                                    <img src="./img/phukienlist.jpg" alt="" class="product__list-img">
+                                </a>
+                            </div> 
+                            <div class="product__container-text">
+                                <a href="" class="product__list-link-text">
+                                    Phụ kiện
+                                </a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <!-- sale -->
+                <div class="product__container">
+                    <div class="product__container-block">
+                        <h3 class="block-text">
+                            <span>Sản phẩm</span>
+                            KHUYẾN MÃI
+                        </h3>
+                    </div>
+                    <div class="product__sale-list">
+                        <div class="big__sale col l-6">
+                            <div class="tag-sale">-10%</div>
+                            <div class="big__sale-img">
+                                 <a href="" class="big__sale-link">
+                                   <img src="/img/may-anh-fujifilm-x-pro3-dura-body-bac(1).jpg" alt="">
+                                </a>
+                            </div>
+                           <div class="big__sale-text">
+                               <p class="big__sale-heading">Sony Alpha ZV-A10</p>
+                               <p class="sale__bonus">- Ưu đãi 4.000.000vnd khi mua kèm ống kính 16-50mm hoặc 18-250mm . Áp dụng Pre-Order chuẩn từ 12/03 đến 04/04</p>
+                               <p class="big__sale-prive">
+                                   <span>
+                                       <del>18.990.000 VNĐ</del>
+                                   </span>
+                                   <span class="prive-main">17.990.000 VNĐ</span>
+                               </p>
+                           </div>
+                        </div>
+                        <div class="small__sale col l-3">
+                            <div class="tag-sale">-0%</div>
+                            <div class="small__sale-img">
+                                <a href="" class="small__sale-link">
+                                    <img class="small__sale-im " src="./img/salemoall2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="small__sale-text">
+                                <p class="small__sale-heading">Nikon Z9</p>
+                                <p class="small__sale__bonus">- Ưu đãi 4.000.000vnd khi mua kèm ống kính SEL20F18G, SEL24F14GM, SEL35F14GM, SEL1635GM .Áp dụng Pre-Order từ 12/03 đến 04/04</p>
+                                <p class="small__sale-prive">
+                                    <span>144.990.000 VNĐ</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="small__sale col l-3">
+                            <div class="tag-sale">-0%</div>
+                            <div class="small__sale-img">
+                                <a href="" class="small__sale-link">
+                                    <img class="small__sale-im" src="./img/salemall.jpg" alt="">
+                                </a>
+                            </div> 
+                            <div class="small__sale-text">
+                                <p class="small__sale-heading">Sony ILME-FX3 </p>
+                                <p class="small__sale__bonus">- Ưu đãi 4.000.000vnd khi mua kèm ống kính SEL20F18G, SEL24F14GM, SEL35F14GM, SEL1635GM
+                                    Áp dụng Pre-Order từ 12/03 đến 04/04</p>
+                                <p class="small__sale-prive">
+                                    <span>92,990,000 VNĐ</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="product__container-img-foot">
+                        <img src="./img/rcq1614840223.png" alt="">
+                    </div>             
+                </div>
+
+                <!-- danh muc may anh -->
+                <div id="mayanh"  class="product__container">
+                    <div id="fujix" class="product__container-block">
+                        <h3 class="block-text">
+                            <span>Máy ảnh</span>
+                                FUILFILM
+                        </h3>
+                    </div>
+
+                    <div class="product__slide-show">
+
+                        <ul id="autoWidth" class="cs-hiden">                         
+                            <li class="item-a">
+                                <div class="product__slide-item  ">
+                                    <a href="product.html   " class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-xs10-body.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XS-10</h3>
+                                            <span class="product__slide-prive">29.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-b">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-xa5.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XA-5</h3>
+                                            <span class="product__slide-prive">8,890,000đ VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-c">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-gfx-100s-body.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji GFX 100S</h3>
+                                            <span class="product__slide-prive">149.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-d">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-xt30-kit-xc1545-mm-f-3556-ois-pz-bac(2).jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XT-30</h3>
+                                            <span class="product__slide-prive">21.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-e">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-x-e3-body-bac.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XE-3</h3>
+                                            <span class="product__slide-prive">12.900.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-f">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-x-a7-body-xanh1.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XA-7</h3>
+                                            <span class="product__slide-prive">10.790.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-g">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-x-pro3-dura-body-bac(1).jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji X-PRO-3</h3>
+                                            <span class="product__slide-prive">46.490.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>    
+                            <li class="item-h">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-xt4-body-bac.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XT-4</h3>
+                                            <span class="product__slide-prive">37.990.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     <li class="item-j">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/fujifilm-gfx-50r(1).jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji GFX-50R</h3>
+                                            <span class="product__slide-prive">49.900.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-k">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/may-anh-fujifilm-x-t20011.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji XT-200</h3>
+                                            <span class="product__slide-prive">19.990.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                        
+                        </ul>
+                    </div>
+                    
+                </div>    
+
+                <div id="ongkinh" class="product__container">
+                    <div id="fujix" class="product__container-block">
+                        <h3 class="block-text">
+                            <span>Ống kính</span>
+                            LENS
+                        </h3>
+                    </div>
+
+                    <div class="product__slide-show">
+
+                        <ul id="autoWidth-tow" class="cs-hiden">                         
+                            <li class="item-a">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/fujinon-xf-1655mm-f28-r-lm-wr.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Lens 16-55mm</h3>
+                                            <span class="product__slide-prive">20.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-b">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/fujinon-xf1024mm-f4-r-ois.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Lens 10-24mm</h3>
+                                            <span class="product__slide-prive">9.900.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-c">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/fujinon-xf1855mmf284-r-lm-ois.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Lens 18-55mm</h3>
+                                            <span class="product__slide-prive">5.500.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-d">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/fujinon-xf35mmf2-r-wr-den.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Lens XF2-35mm</h3>
+                                            <span class="product__slide-prive">7.500.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-e">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/fujinon-xf55200mmf3548-r-lm-ois.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Lens 55-200mmXF</h3>
+                                            <span class="product__slide-prive">15.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-f">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/ong-kinh-fujifilm-fujinon-xc35mm-f2.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji 35mmXC</h3>
+                                            <span class="product__slide-prive">12.690.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-g">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/ong-kinh-fujifilm-fujinon-xf-16-80mm-f4-r-lm-wr.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Fuji 16-80mmXF</h3>
+                                            <span class="product__slide-prive">23.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>        
+                        </ul>
+                    </div>
+                    
+                </div> 
+                  
+                <div id="thenho"  class="product__container">
+                    <div id="fujix" class="product__container-block">
+                        <h3 class="block-text">
+                            <span>Thẻ nhớ</span>
+                            MEMORY
+                        </h3>
+                    </div>
+
+                    <div class="product__slide-show">
+
+                        <ul id="autoWidth-three" class="cs-hiden">                         
+                            <li class="item-a">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655693_dau-doc-the-lexar-professional-usb-30-dual-slot-udma-7-moi-100-1499677770.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Lexar USB 30</h3>
+                                            <span class="product__slide-prive">160.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-b">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655799_sandisk-sdhc-extreme-pro-s-64gb-280mbs-1867x-chinh-hang-1499670316.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Sandisk 64gb</h3>
+                                            <span class="product__slide-prive">400.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-c">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655824_sandisk-extreme-sdhc-64gb-90mbs-600x-chinh-hang-1499664095.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Sandisk 64gb pro</h3>
+                                            <span class="product__slide-prive">450.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-d">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655826_sandisk-extreme-sdhc-32gb-90mbs-600x-chinh-hang-1499664091.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Sandisk 32gb</h3>
+                                            <span class="product__slide-prive">200.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-e">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655832_sandisk-sdhc-32gb-ultra-48mbs-320x-chinh-hang-1499664077.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Sandisk 35gb ultra</h3>
+                                            <span class="product__slide-prive">15.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-f">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655834_sandisk-sdhc-16gb-ultra-48mbs-320x-chinh-hang-1499664072.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Sandisk 16gb</h3>
+                                            <span class="product__slide-prive">150.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-g">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515655836_sandisk-sdhc-8gb-ultra-48mbs-320x-chinh-hang-1499664069.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Sandisk 16gb</h3>
+                                            <span class="product__slide-prive">100.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>        
+                        </ul>
+                    </div>
+                    
+                </div>   
+
+                <div id="phukien"  class="product__container">
+                    <div id="fujix" class="product__container-block">
+                        <h3 class="block-text">
+                            <span>Phụ kiện</span>
+                            ACCESSORIES
+                        </h3>
+                    </div>
+
+                    <div class="product__slide-show">
+
+                        <ul id="autoWidth-four" class="cs-hiden">                         
+                            <li class="item-a">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515657563_hat-sang-godox-bau-duc-7-in-1-size-100x150-moi-100-1499682752.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Hắt sáng GODOX</h3>
+                                            <span class="product__slide-prive">150.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-b">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515658262_softbox-godox-to-ong-bang-vai-cho-den-phong-moi-100-1499682703.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Softbox GODOX</h3>
+                                            <span class="product__slide-prive">1.200.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-c">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515658278_du-xuyen-sang-1499673534.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Tản sáng OCTAVE</h3>
+                                            <span class="product__slide-prive">950.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-d">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_fei1520243729.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Flash Speelite 470</h3>
+                                            <span class="product__slide-prive">3.500.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-e">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_oxs1600663062.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Đèn Led GODOX</h3>
+                                            <span class="product__slide-prive">1.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-f">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515492594_quick-studio-flash-godox-qs400-moi-100-1499680215.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Đèn studio GODOX</h3>
+                                            <span class="product__slide-prive">1.690.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>     
+                            <li class="item-g">
+                                <div class="product__slide-item  ">
+                                    <a href="" class="product__slide-link">
+                                        <div class="product__slide-img">
+                                            <img src="./img/small_1515547657_luxmen-x6-ledpro-chinh-hang-1499664269.jpg" alt="" class="">
+                                        </div>
+                                        <div class="product__slide-text">
+                                            <h3 class="product__slide-heading">Đèn LUXMEN Ledpro</h3>
+                                            <span class="product__slide-prive">1.000.000 VNĐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>        
+                        </ul>
+                    </div>
+                    
+                </div>   
+
+                <div class="product__img-footer">
+                    <img src="./img/thu-cu-doi-moi.jpg" alt="">
+                </div>         
+            </div>      
+            <div class="img__footer-event">
+                <img src="./img/mla1614840232.png" alt="">
+            </div>
+          
+        </div>
+        <!-- footer -->
+        <div class="footer-product">
+            <div class="grid wide">
+                <div class="footer__body">
+                    <div class="footer__left">
+                        <div class="footer__box">
+                            <p class="footer__box-heading">Photography</p>
+                            <ul class="footer__box-list">
+                                <li class="footer__box-item">Máy Ảnh</li>
+                                <li class="footer__box-item">Ống Kính</li>
+                                <li class="footer__box-item">Phụ Kiện</li>
+                                <li class="footer__box-item">Thẻ Nhớ</li>
+                                <li class="footer__box-item">Gimbal</li>
+                            </ul>
+                        </div>
+                        <div class="footer__box">
+                            <p class="footer__box-heading">accessory</p>
+                            <ul class="footer__box-list">
+                                <li class="footer__box-item">Máy Ảnh</li>
+                                <li class="footer__box-item">Ống Kính</li>
+                                <li class="footer__box-item">Balo</li>
+                                <li class="footer__box-item">Hand Grip</li>
+                                <li class="footer__box-item">Tripod</li>
+                                <li class="footer__box-item">Đèn Flash</li>                  
+                            </ul>
+                        </div>
+                        <div class="footer__box">
+                            <p class="footer__box-heading">Gimbal</p>
+                            <ul class="footer__box-list">
+                                <li class="footer__box-item">DJI Store</li>
+                                <li class="footer__box-item">Zhiyun</li>
+                                <li class="footer__box-item">Moza</li>
+                                <li class="footer__box-item">Feiyutech</li>
+                            </ul>
+                        </div>
+                        <div class="footer__box">
+                            <p class="footer__box-heading">Đồ cũ chất</p>
+                            <ul class="footer__box-list">
+                                <li class="footer__box-item">Máy Ảnh cũ</li>
+                                <li class="footer__box-item">Ống Kính cũ</li>
+                                <li class="footer__box-item">Gimbal cũ</li>
+                                <li class="footer__box-item">Phụ Kiện cũ</li>
+                            </ul>
+                        </div>
+                        <div class="footer__box">
+                            <p class="footer__box-heading">memory Stick</p>
+                            <ul class="footer__box-list">
+                                <li class="footer__box-item">Sandisk Extreme</li>
+                                <li class="footer__box-item">SDXC Sony</li>
+                                <li class="footer__box-item">SDXC Samsung EVO</li>
+                                <li class="footer__box-item">Đầu Lọc Thẻ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__adrees">
+                    <div class="footer__service">
+                       <div class="footer__service-box">
+                            <ul class="footer__service-list">
+                                <li class="footer__service-item">
+                                    <a href="" class="footer__service-link">Chính sách bảo mật</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="" class="footer__service-link">Chính sách đổi trả</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="" class="footer__service-link">Chính sách vận chuyển</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="" class="footer__service-link">Chính sách thanh toán</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="" class="footer__service-link">Chính sách bảo mật</a>
+                                </li>
+                            </ul>
+                       </div>
+                        <div class="footer__social-box">
+                            <ul class="footer__social-list">
+                                <li class="footer__social-item">
+                                    <a href="" class="footer__social-link">
+                                        <img class="footer__social-img" src="./img/icon-facebook.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a href="" class="footer__social-link">
+                                        <img class="footer__social-img" src="./img/icon-youtube.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a href="" class="footer__social-link">
+                                        <img class="footer__social-img" src="./img/icon-instagram.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__andress">
+                        <div class="footer__andress-box">
+                            <ul class="footer__andressbox-list">
+                                <li class="footer__andressbox-item">Công ty TNHH VJS VIỆT NAM</li>
+                                <li class="footer__andressbox-item">Địa chỉ: Nguyễn Phong Sắc, Phường Dịch Vọng Hậu, Quận Cầu Giấy, TP Hà Nội</li>
+                                <li class="footer__andressbox-item">ĐKKD số 01074615458697 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp ngày 10/06/2020</li>
+                                <li class="footer__andressbox-item">Điện thoại: 0965.505.515 - Email: info@vjcorp.vn - Chịu trách nhiệm nội dung: Võ Văn Đạt - Đại diện pháp luật: Nguyễn Thế Hùng</li>
+                            </ul>
+                        </div>
+                        <div class="footer__andress-img ">
+                            <img src="./img/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <!-- MOT CHUT JS -->
+    <script>
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector(".header");
+            header.classList.toggle("sticky",window.scrollY > 60);
+        });
+//----------------------------------------------------------------------------// 
+    </script>
+    <script type="text/javascript" src="./asset/script.js"></script>
+</body>
+</html>
